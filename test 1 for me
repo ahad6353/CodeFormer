@@ -1,0 +1,49 @@
+import random
+
+# List of story ideas
+stories = [
+    "Once upon a time, there was a brave knight...",
+    "In a small village, there lived a talented musician...",
+    "On a distant planet, a group of explorers encountered...",
+    # Add more story ideas here
+]
+
+# List of video titles
+videos = [
+    "Exploring the Ancient Ruins",
+    "Cooking Masterclass: Delicious Recipes",
+    "Funny Moments Compilation",
+    # Add more video titles here
+]
+
+# List of image URLs
+images = [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg",
+    # Add more image URLs here
+]
+
+# List of article topics
+articles = [
+    "The Benefits of Exercise",
+    "Top 10 Travel Destinations",
+    "Tips for Effective Time Management",
+    # Add more article topics here
+]
+
+# Generate a random story
+random_story = random.choice(stories)
+print("Story:", random_story)
+
+# Generate a random video
+random_video = random.choice(videos)
+print("Video:", random_video)
+
+# Generate a random image
+random_image = random.choice(images)
+print("Image:", random_image)
+
+# Generate a random article
+random_article = random.choice(articles)
+print("Article:", random_article)
